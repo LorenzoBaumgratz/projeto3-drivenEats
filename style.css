@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 414px;
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.superior{
+    width: 414px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 92px;
+    background-color: red;
+}
+
+.txt-sup{
+    padding-top: 8px;
+    padding-left: 21px;
+    padding-bottom: 21px;
+}
+
+.pratos{
+    margin-top: 31px;
+    margin-left: 19px;
+    overflow: hidden;
+    
+}
+
+.prato{
+    width: 172px;
+    height: 216px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+    padding: 14px;
+    margin-right: 16px;
+    margin-top: 17px;
+}
+
+img{
+    border-radius: 4px;
+    width: 144px;
+    height: 87px;
+}
+
+.linha-pratos{
+    display: flex;
+    width: 414px;
+    overflow-x: scroll;
+}
+
+.inferior{
+    width: 414px;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    height: 92px;
+    background-color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-inf{
+    background-color: #CBCBCB;
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+
+.conteudo{
+    margin: 108px 0;
+}
+
+/*TEXTO*/
+p, h3{
+    width: 147px; 
+}
+
+h1{
+    font-weight: 400;
+    font-size: 44px;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+.sup-menor{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    width: 226px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 26px;
+    color: #333333;
+    font-family: 'Righteous', cursive;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+    margin-top: 8px;
+}
+
+.txt-prato{
+    font-weight: 300;
+    font-size: 15px;
+    color: #a6a6a6;
+    margin-top: 10px;
+}
+
+.preco{
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    margin-top: 15px;
+}
+
+.txt-inf{
+    width: 200px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #CBCBCB;
+    height: 61px;
+    border-radius: 50px;
+    border: none;
+}
