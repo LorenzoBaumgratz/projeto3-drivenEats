@@ -82,6 +82,13 @@ img{
     margin: 108px 0;
 }
 
+.selecionar{
+    border-style: solid;
+    border-color: #32b72f;
+    border-radius: 9px;
+    border-width: 5px;
+}
+
 /*TEXTO*/
 p, h3{
     width: 147px; 
