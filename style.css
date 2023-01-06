@@ -70,7 +70,7 @@ img{
 }
 
 .botao-inf{
-    background-color: #CBCBCB;
+    
     width: 364px;
     height: 61px;
     border-radius: 50px;
@@ -87,6 +87,14 @@ img{
     border-color: #32b72f;
     border-radius: 9px;
     border-width: 5px;
+}
+
+.verde{
+    background-color: #32b72f;
+}
+
+.cinza{
+    background-color: #CBCBCB;
 }
 
 /*TEXTO*/
@@ -141,7 +149,6 @@ h3{
     font-weight: 400;
     font-size: 20px;
     color: white;
-    background-color: #CBCBCB;
     height: 61px;
     border-radius: 50px;
     border: none;
