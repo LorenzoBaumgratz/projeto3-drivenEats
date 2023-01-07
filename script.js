@@ -21,7 +21,7 @@ function selecionarcomida(x){
     clicarBot();
 }
 
-l
+
 
 function selecionarsobremesa(x){
     const k=document.querySelector(".sobremesa .selecionar");
@@ -62,7 +62,7 @@ function enviar(){
     let aux=total.toFixed(2);
     alert(aux);
 
-    let txt=`Olá, gostaria de fazer o pedido: \nPrato: ${document.querySelector(".comida .selecionar h3").innerHTML}\nBebida: ${document.querySelector(".bebidas .selecionar h3").innerHTML}\nSobremesa: ${document.querySelector(".sobremesa .selecionar h3").innerHTML}\nTotal: ${aux}` ;
+    let txt=`Olá, gostaria de fazer o pedido: \nPrato: ${document.querySelector(".comida .selecionar h3").innerHTML}\nBebida: ${document.querySelector(".bebidas .selecionar h3").innerHTML}\nSobremesa: ${document.querySelector(".sobremesa .selecionar h3").innerHTML}\nTotal: R$ ${aux}` ;
     
     txt=window.encodeURIComponent(txt);
     window.open("https://api.whatsapp.com/send?phone=" + celular + "&text=" + txt, "_blank");
