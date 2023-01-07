@@ -60,7 +60,6 @@ function enviar(){
     
     var total=Number(currency3.replace(/[^0-9.-]+/g,""))+Number(currency2.replace(/[^0-9.-]+/g,""))+Number(currency1.replace(/[^0-9.-]+/g,""));
     let aux=total.toFixed(2);
-    alert(aux);
 
     let txt=`Olá, gostaria de fazer o pedido: \nPrato: ${document.querySelector(".comida .selecionar h3").innerHTML}\nBebida: ${document.querySelector(".bebidas .selecionar h3").innerHTML}\nSobremesa: ${document.querySelector(".sobremesa .selecionar h3").innerHTML}\nTotal: R$ ${aux}` ;
     
